@@ -1,0 +1,24 @@
+# Models - حجمها كبير
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Data
+data/raw/
+*.csv
+*.json
+
+# Colab specific
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+runs/
+*.log
+
+# Large visualizations
+visualizations/training_plots/
+visualizations/lime_explanations/
